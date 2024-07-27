@@ -1,0 +1,35 @@
+name: comanda
+description: "Sistema para comandas de bares e restaurantes"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+
+dev_dependencies:
+
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: RocknRollOne
+      fonts:
+        - asset: assets/fonts/RocknRollOne.ttf
