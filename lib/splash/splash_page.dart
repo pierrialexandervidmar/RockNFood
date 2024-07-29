@@ -15,7 +15,7 @@ class SplashPage extends StatelessWidget {
         body: Stack(
           children: [
             Image.asset(
-              'assets/images/logo2.png',
+              'assets/images/logo3.png',
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               //fit: BoxFit.fill, // Adicionando BoxFit para ajustar a imagem
